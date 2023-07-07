@@ -1,0 +1,28 @@
+.intro-text{
+    width: 80%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apperar-text{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.img1{
+    height: 600px;
+    width: 1250px;
+}
+.img2{
+    margin-left: 120px;
+    height: 500px;
+    margin-right: 0px;
+
+}
+.intro-title{
+    display: flex;
+    justify-content: center;
+}
